@@ -1,5 +1,4 @@
 window.onload = function() {
-  const loading = document.getElementById('loading');
+  const loading = document.getElementById('loading-area');
   loading.classList.add('loaded');
-  // document.getElementById('loading').classList.add('loaded');
 }
