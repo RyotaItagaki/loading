@@ -92,12 +92,14 @@ main {
 }
 
 .img-container {
-  width: 100vw;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+  width: 98vw;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1vw;
+  row-gap: 1vh;
 }
 
 .img-container img {
-  width: 30%;
+  width: 100%;
 }
